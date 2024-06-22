@@ -1,8 +1,8 @@
-# Median Filter and Canny Edge Detection Project
+# Median Filter and Canny Edge Detection Assignment
 
 ## Overview
 
-This project is based on Image Processing. It demonstrates the application of Median Filtering and Canny Edge Detection using NVIDIA's NPP (NVIDIA Performance Primitives) library. These image processing techniques are implemented to leverage GPU acceleration for efficient processing of images.
+This assignment is based on Image Processing. It demonstrates the application of Median Filtering and Canny Edge Detection using NVIDIA's NPP (NVIDIA Performance Primitives) library. These image processing techniques are implemented to leverage GPU acceleration for efficient processing of images.
 medianFilterCannyEdgeNPP is the main folder containing medianFilterCannyEdgeNPP.cpp , which has the code for both the algorithms and the Makefile.
 cmu_face_images is the folder containing the original CMU FACE IMAGES. This dataset has 20 subfolders having 32 images in each folder. These images are images of 20 different people.
 cmu_face_medianFilter is the output folder containing all the images after applying the Median Filter.
