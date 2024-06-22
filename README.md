@@ -11,46 +11,6 @@ For the assignment I have used the CMU FACE IMAGES Dataset(https://www.cs.cmu.ed
 1. **Median Filter**: Reduces noise in images by replacing each pixel with the median value from a surrounding window of pixels. I have used this algorithm as it is one of the altenative methods to box filtering.
 2. **Canny Edge Detection**: It identifies edges in images using a multi-stage algorithm involving noise reduction, gradient calculation, non-maximum suppression, and edge tracking by hysteresis. I have used this algorithm for finding edge detection in the input images.
 
-## Files
-medianFilterCannyEdgeNPP/
-│
-├── cmu_face_images/
-│   ├── subfolder1/
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   └── ...
-│   ├── subfolder2/
-│   │   ├── image3.jpg
-│   │   └── ...
-│   └── ...
-│
-├── medianFilterCannyEdgeNPP/
-│   ├── Makefile
-│   ├── medianFilterCannyEdgeNPP
-│   ├── medianFilterCannyEdgeNPP.cpp
-│   └── medianFilterCannyEdgeNPP.o
-│
-├── cmu_face_medianFilter/
-│   ├── subfolder1/
-│   │   ├── image1_medianFilter.jpg
-│   │   ├── image2_medianFilter.jpg
-│   │   └── ...
-│   ├── subfolder2/
-│   │   ├── image3_medianFilter.jpg
-│   │   └── ...
-│   └── ...
-│
-└── cmu_face_cannyedge/
-    ├── subfolder1/
-    │   ├── image1_cannyEdge.jpg
-    │   ├── image2_cannyEdge.jpg
-    │   └── ...
-    ├── subfolder2/
-    │   ├── image3_cannyEdge.jpg
-    │   └── ...
-    └── ...
-
-
 ## Requirements
 
 - CUDA Toolkit
